@@ -1,0 +1,17 @@
+name: SkillHawk Security Scan
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  skillhawk:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Berserk-hub150/skillhawk@v0.2.0
+        with:
+          path: .
+          fail-on: high
