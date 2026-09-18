@@ -52,7 +52,7 @@ The validator checks that:
 - Every skill directory contains valid shared `name` and `description` frontmatter.
 - No scaffold placeholders remain.
 
-GitHub Actions runs the same validation on pushes and pull requests.
+GitHub Actions runs the same validation on pushes and pull requests. Pull requests also run the SkillHawk security scan as an independent check.
 
 ## Add another shared skill
 
