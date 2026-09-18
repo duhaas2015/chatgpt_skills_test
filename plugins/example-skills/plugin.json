@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "example-skills",
+  "version": "0.1.0+codex.20260918014142",
+  "description": "A cross-platform skill packaged for Codex, Claude Code, and compatible IDE agents.",
+  "author": {
+    "name": "Marketplace Example Contributors"
+  },
+  "license": "MIT",
+  "keywords": ["skills", "marketplace", "example", "cross-platform"]
+}

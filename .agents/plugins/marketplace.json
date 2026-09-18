@@ -1,0 +1,20 @@
+{
+  "name": "personal",
+  "interface": {
+    "displayName": "GitHub Skills Test"
+  },
+  "plugins": [
+    {
+      "name": "example-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/example-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

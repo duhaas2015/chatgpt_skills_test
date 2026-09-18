@@ -1,0 +1,29 @@
+{
+  "name": "example-skills",
+  "version": "0.1.0+codex.20260918014142",
+  "description": "A cross-platform skill packaged for Codex, Claude Code, and compatible IDE agents.",
+  "author": {
+    "name": "Marketplace Example Contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "marketplace",
+    "example"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Example Skills",
+    "shortDescription": "Test skill discovery from a marketplace.",
+    "longDescription": "A minimal demonstration showing how one canonical SKILL.md can be packaged for Codex, Claude Code, and compatible IDE agents.",
+    "developerName": "Marketplace Example Contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "defaultPrompt": [
+      "Use $hello-marketplace to verify this plugin works."
+    ]
+  }
+}

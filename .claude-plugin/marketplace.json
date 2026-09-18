@@ -1,0 +1,23 @@
+{
+  "name": "github-skills-test",
+  "owner": {
+    "name": "Marketplace Example Contributors"
+  },
+  "metadata": {
+    "description": "Cross-platform agent skill demonstrations",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "example-skills",
+      "source": "./plugins/example-skills",
+      "description": "Demonstrates one shared skill across multiple agent platforms.",
+      "version": "0.1.0+codex.20260918014142",
+      "author": {
+        "name": "Marketplace Example Contributors"
+      },
+      "license": "MIT",
+      "category": "development"
+    }
+  ]
+}

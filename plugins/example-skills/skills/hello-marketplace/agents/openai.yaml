@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hello Marketplace"
+  short_description: "Verify a marketplace skill is installed"
+  default_prompt: "Use $hello-marketplace to verify this test skill is installed."
